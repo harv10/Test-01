@@ -30,5 +30,5 @@ function calculate(req, res) {
     res.end(`${x} ${method} ${y} = ${result}`);
 }
 const app = connect();
-app.use('/lab2', calculate); // Use the calculate function for URLs starting with /lab2
+app.use('/lab2', calculate);
 app.listen(3000);
