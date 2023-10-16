@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Harvinder Singh - Portfolio</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About Me</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    {{#contentFor "content"}}
+      <!-- Content of individual pages will be injected here -->
+    {{/contentFor}}
+  </main>
+  <footer>
+    <p>Find me on <a href="https://github.com/harv10">GitHub</a> and <a href="https://www.linkedin.com/in/harvinder-singh">LinkedIn</a></p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{{{> layouts/layout}}
+
+{{#block "content"}}
+  <div class="container">
+    <h1>Contact Me</h1>
+    
+    <h2>Contact Information</h2>
+    <p>
+      You can reach out to me via the following methods:
+    </p>
+    <ul>
+      <li>Email: <a href="mailto:200489056@student.georgianc.on.ca">200489056@student.georgianc.on.ca</a></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/harvinder-singh">LinkedIn Profile</a></li>
+      <li>GitHub: <a href="https://github.com/harv10">GitHub Profile</a></li>
+    </ul>
+    
+    <h2>Contact Form</h2>
+    <p>If you prefer, you can also use the contact form below to send me a message:</p>
+    
+    <form action="/send" method="POST">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class "form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit">Send Message</button>
+   
