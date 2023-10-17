@@ -1,0 +1,13 @@
+[{
+        "title": "Portfolio Website",
+        "description": "This is my personal portfolio website, showcasing my web development projects and skills.",
+        "url": "https://github.com/harv10/portfolio-website",
+        "image": "/images/portfolio.jpg"
+    },
+    {
+        "title": "Project 2",
+        "description": "A description of your second project.",
+        "url": "https://github.com/harv10/project2",
+        "image": "/images/project2.jpg"
+    }
+]
